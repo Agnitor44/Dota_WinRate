@@ -1,0 +1,54 @@
+div.panel {
+  margin: 5vh auto;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 0;
+  background-color: rgba(163, 163, 163, 0.63);
+}
+
+div.panel h1.name {
+  text-align: center;
+  font-size: 45px;
+  margin: 2vh 0;
+}
+
+div.panel img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+div.panel div.roles {
+  margin: 1vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div.panel h1.wr {
+  text-align: center;
+  padding-bottom: 2vh;
+  line-height: 45px;
+}
+
+div.panel h1.wr span {
+  font-size: 55px;
+}
+
+div.spinner {
+  z-index: 999;
+  background-image: url("../img/Rolling-1s-200px.gif");
+  margin: 0 auto;
+}
+/*# sourceMappingURL=panel.css.map */

@@ -1,0 +1,38 @@
+div.panel {
+    margin: 5vh auto;
+    width: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: rgba(163, 163, 163, 0.63);
+    h1.name {
+        text-align: center;
+        font-size: 45px;
+        margin: 2vh 0;
+    }
+    img {
+        width: 95%;
+        margin: 0 auto;
+    }
+    div.roles {
+        margin: 1vh 0;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    h1.wr {
+        text-align: center;
+        padding-bottom: 2vh;
+        line-height: 45px;
+        span {
+            font-size: 55px;
+          
+        }
+    }
+}
+div.spinner {
+    z-index: 999;
+    background-image: url('../img/Rolling-1s-200px.gif');
+    margin: 0 auto;
+}
